@@ -1,5 +1,5 @@
 #웹캠 로딩 시간을 줄여주는 코드
-import os
+import os #안녕
 os.environ["OPENCV_VIDEOIO_MSMF_ENABLE_HW_TRANSFORMS"] = "0"
 
 #본코드
