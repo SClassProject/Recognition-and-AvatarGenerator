@@ -34,7 +34,7 @@ START_TIME = time.time()
 FPS = 0
 
 #얼굴인식용 변수
-image = face_recognition.load_image_file("c:/Users/luna/Desktop/girl.jpg")
+image = face_recognition.load_image_file("./img/girl.jpg")
 encoding = face_recognition.face_encodings(image)[0]
 
 known_face_encodings = [
@@ -43,7 +43,6 @@ known_face_encodings = [
 known_face_names = [
     "Name",
 ]
-
 
 #얼굴변수 초기화
 face_locations = []
